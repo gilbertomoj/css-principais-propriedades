@@ -1,0 +1,59 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+*{
+    background-color: #8C7873;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header > h3 {
+    font-family: 'Rampart One', cursive;
+    margin-left: 16px;
+}
+h3{
+    font-family: 'Rampart One', cursive;
+    color: orange;
+}
+#title{
+    text-align: center;
+    color: orange;
+}
+#title2{
+    text-align: center;
+    background-color: #f3f3f3;
+}
+.gallery{
+    display: flex;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200vh;
+    justify-content: space-evenly;
+}
+.images > img{
+    width: 20%;
+    border-radius: 15px;
+    margin: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: transparent;
+}
+footer > p{
+    background-color: transparent;
+}
